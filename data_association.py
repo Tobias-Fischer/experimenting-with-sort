@@ -11,7 +11,7 @@ see https://github.com/nwojke/deep_sort
 
 import numpy as np
 from numba import jit
-from sklearn.utils.linear_assignment_ import linear_assignment
+from .linear_assignment import linear_assignment
 
 
 @jit
